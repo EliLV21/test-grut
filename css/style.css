@@ -1,12 +1,40 @@
-body {
-  font-weight: lighter;
-  font-size: 12px; }
-
 .navBar {
   background-color: #000;
+  height: 150px;
+  position: sticky; }
+
+.nav > li {
+  display: inline-block; }
+
+.nav > li > a {
+  font-size: 15px;
   color: #fff;
-  height: 100px; }
-  .navBar .nav-pill li {
-    color: #fff; }
+  border: none;
+  border-bottom: 0.5px solid #fff;
+  margin-right: 0; }
+
+.nav > li:first-child {
+  font-size: 17px;
+  font-weight: 600; }
+
+.nav > li > a:hover, .nav > li > a:focus {
+  background-color: transparent;
+  color: gold;
+  border: none;
+  border-bottom: 0.5px solid gold; }
+
+.breadcrumb {
+  font-size: 13.5;
+  background: transparent; }
+
+#marcas {
+  font-weight: 900;
+  color: goldenrod;
+  background-image: url("https://previews.123rf.com/images/naiaekky/naiaekky1502/naiaekky150200025/36201069-golden-glitter-background.jpg");
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+img {
+  width: 90%; }
 
 /*# sourceMappingURL=style.css.map */
