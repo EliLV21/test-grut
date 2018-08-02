@@ -1,0 +1,12 @@
+body {
+  font-weight: lighter;
+  font-size: 12px; }
+
+.navBar {
+  background-color: #000;
+  color: #fff;
+  height: 100px; }
+  .navBar .nav-pill li {
+    color: #fff; }
+
+/*# sourceMappingURL=style.css.map */
