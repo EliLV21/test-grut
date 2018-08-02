@@ -22,7 +22,8 @@
   font-size: 15px;
   color: #fff;
   border: none;
-  margin-right: 0; }
+  margin-right: 0;
+  padding: 10px 12px; }
 
 .nav > li:first-child {
   width: 20%;
